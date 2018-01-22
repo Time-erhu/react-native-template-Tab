@@ -1,0 +1,22 @@
+{
+  "name": "template-tab",
+  "version": "1.0.0",
+  "description": "init模版文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Time-erhu/react-native-template-Tab.git"
+  },
+  "keywords": [
+    "react-native-template"
+  ],
+  "author": "Time-erhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Time-erhu/react-native-template-Tab/issues"
+  },
+  "homepage": "https://github.com/Time-erhu/react-native-template-Tab#readme"
+}
