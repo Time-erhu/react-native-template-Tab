@@ -29,8 +29,8 @@
  
     包括TAB，一些页面跳转。
    
- 2-：此库路由包含以下两种方式
- ：
+ 2-：此库路由包含以下两种方式：
+
      -1:react-native-router-flux
      
      -2:react-navigation
