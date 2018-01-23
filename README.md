@@ -2,7 +2,7 @@
 
 一：项目创建
 
- 背景：
+ 1：背景：
  当我们新建项目时，需要使用如下命令：
  
  
@@ -36,8 +36,31 @@
      -1:react-native-router-flux
      
      -2:react-navigation
+     
+ 针对此模版文件，本库自带以下第三方组件：
+      -1:路由  react-native-router-flux
+      -2:网络相关库  react-native-fetch-blob
+
  
+2:运行项目，因为使用了Template，所以通过此模版命令新建的项目，运行起来有所不同，具体请参照以下步骤：
+
+1-：在终端中进入项目所在目录或者在编辑器中项目的Terminal中执行依次以下命令：
+
+ npm install react-native-router-flux --save
  
+ npm install react-native-fetch-blob
+ 
+2-：等以上命令执行完毕，继续执行如下命令
+
+react-native link
+ 
+3-：运行项目，执行以下某个命令：
+
+react-nativ run-ios
+
+react-native run-android
+ 
+小提示：推荐使用yarn来进行第三方包管理
 
 二：资源管理
 1-：使用模版文件时，自动init项目，带有部分源码,包括快速搭建基础项目结构。
