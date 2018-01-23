@@ -3,9 +3,9 @@
 一：项目创建
 
 
-本项目参照兔子：https://github.com/SurpassRabbit/react-native-template
+本项目参照兔子的模版项目：https://github.com/SurpassRabbit/react-native-template
 
-在此，表示感谢，🙏🙏
+本人只是做了一些优化在此，表示感谢，🙏🙏。此次版本只做了下封装，期待后期的改版。
 
  1：背景：
  当我们新建项目时，需要使用如下命令：
