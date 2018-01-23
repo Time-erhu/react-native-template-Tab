@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import { Dimensions, AsyncStorage, PixelRatio, Platform, Alert } from 'react-native';
+import { Dimensions, PixelRatio, Platform } from 'react-native';
 
+import ImageUtil from '../image/ImageUtil'
 // 统一管理项目中的路由
 import { Actions } from "react-native-router-flux";
 
+//图片上传或得网络格式
+import Request from './Request'
 // 处理安卓，iOS字体不同的类，使用方法 fontSize:FONT_SIZE(20)
 import FontSize from './FontSize';
 
@@ -25,9 +28,8 @@ global.PixelRatio = PixelRatio.get();
 global.pixel = 1 / PixelRatio;
 // 适配字体
 global.FONT_SIZE = FontSize;
-// 屏幕适配
-global.px2dp = px2dp;
-// 主题
-global.Theme = Theme;
 // router跳转的方法
 global.Actions = Actions;
+
+global.ImageUtil = ImageUtil;
+global.Request = Request;
