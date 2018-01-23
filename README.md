@@ -76,7 +76,7 @@ react-native link
 3-：运行项目，执行以下某个命令：
 
 ```
-react-nativ run-ios
+react-native run-ios
 
 react-native run-android
  
