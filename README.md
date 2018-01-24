@@ -10,6 +10,8 @@
 
 另：对React-Native-CodeStyle进行了升级维护，库地址也做了迁移，欢迎围观。
 
+此库地址：https://github.com/Time-erhu/React-Native-CodeStyle
+
  1：背景：
  当我们新建项目时，需要使用如下命令：
  
