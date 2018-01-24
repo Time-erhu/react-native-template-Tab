@@ -86,9 +86,11 @@ react-native run-android
 小提示：推荐使用yarn来进行第三方包管理
 
 二：资源管理
+
 1-：使用模版文件时，自动init项目，带有部分源码,包括快速搭建基础项目结构。
 
 2-：项目中常用的封装都放在jscode目录下common文件夹
+
 1、FontSize.js：基于屏幕分辨率封装的字体适配方法，使用方法：fontSize:FONT_SIZE(14)
 
 2、global.js：全局变量方法，比如说：系统判断，屏幕宽高，主题设置，图片初始化。 具体的详情可以查看global.js内部注释。
